@@ -1,0 +1,88 @@
+.FilmBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.FilmCard {
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  width: 600px;
+  height: 300px;
+  background-color: rgba(3, 3, 3, 0.274);
+  margin: 30px;
+}
+.FilmDescription {
+  position: relative;
+  padding: 5px 20px 20px 20px;
+  color: aliceblue;
+}
+
+.FilmName {
+  display: block;
+  width: 320px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-top: 8px;
+}
+
+.GenreForm {
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(99, 97, 97, 0.123);
+  margin: 3px;
+  padding: 1px;
+}
+
+.Preview {
+  display: block;
+  width: 370px;
+  height: 140px;
+  margin-top: 8px;
+}
+.Spin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: brown;
+}
+.Spinner {
+  font-size: 120px;
+  align-content: center;
+  color: aquamarine !important;
+}
+
+.Rating {
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  width: 45px;
+  height: 45px;
+  right: 10px;
+  top: 10px;
+
+  border-radius: 50%;
+}
+
+.RatingStar {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  width: 330px;
+  margin-left: 35px;
+}
+
+.red {
+  border: 2px solid #e90000;
+}
+
+.orange {
+  border: 2px solid #e97e00;
+}
+.yelloy {
+  border: 2px solid #e9d100;
+}
+.green {
+  border: 2px solid #66e900;
+}

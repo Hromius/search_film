@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  background-image: url(back.jpg);
+  background-position: 100% 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(124, 20, 20);
+  margin-top: 200px;
+}
+.Pagination {
+  display: flex;
+  justify-content: center;
+}

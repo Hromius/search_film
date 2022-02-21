@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Greetings {
+  position: relative;
+  margin-top: 30px;
+  color: aquamarine;
+  font-size: 50px;
+}
+.Search {
+  margin-top: 20px;
+  width: 90vw;
+  height: 40px;
+  font-size: 25px;
+}
+.Page-mode {
+  width: 500px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  color: rgb(200, 253, 253);
+  font-size: 30px;
+}
+
+.Search-top {
+  position: absolute;
+  left: 90px;
+}
+
+.Collection-top {
+  position: absolute;
+  text-align: center;
+  right: 90px;
+}
+
+.Search-top:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.Collection-top:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
